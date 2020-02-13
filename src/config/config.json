@@ -1,0 +1,23 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "express-funny",
+        "app_desc": "my test express applicaiton",
+        "node_port": 5000,
+        "database": "none"
+    },
+    "testing": {
+        "config_id": "testing",
+        "database": "none"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "database": "none"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "none"
+    }
+}
